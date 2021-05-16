@@ -40,6 +40,6 @@ workflows:
       - test:
           requires:
             - build
-      - analze:
+      - analyze:
           requires:
             - test
